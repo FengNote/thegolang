@@ -22,3 +22,11 @@ Go语言的身世
 
 ![](/assets/ancestors.png)
 
+Go 有时候会被描述为“和C长得很像的语言”，或者说成是“21世纪的C语言”。 从C语言那里，Go继承了表达式语法，控制流语句，基本数据类型，call-by-value参数传递机制，指针，还有最重要的一个特性：也就是C语言所强调的，把程序编译成有效的机器编码，原生的同目标操作系统配合高效工作。
+
+      不过Go的家庭族谱上还有其他的祖先。其中一个主要的分支来自于Niklaus Wirth创造的一系列语言。这一支的影响始于Pascal语言，然后从Modula-2语言引入了package包的概念，借鉴Oberon语言去掉了module interface稳健和module implementation
+
+稳健的区别，而Oberon-2语言则影响了Go的package语法，import语法，和declaration语法， Object Oberon则提供了函数声明的语法格式参考。
+
+      另一支Go的祖先则是来自于贝尔实验室的一系列小众编程语言。这一支祖先虽然小众，但是对Go的特性却影响重大，正是由于该分支对Go的影响，才使得Go能够明显的同其他现代编程语言区分开来。这一系列语言的原型都来自于1978年Tony Hoare关于并发编程原理的论文。Tony提出了communicating sequential processes\(CSP\)的概念。在CSP中，
+
