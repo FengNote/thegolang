@@ -148,7 +148,7 @@ gopl.io\/ch1\/echo3
 
 func main\(\){
 
-   fmt.Println\(strings.Join\(os.Args\[1:\]," "\)
+fmt.Println\(strings.Join\(os.Args\[1:\]," "\)
 
 }
 
@@ -156,7 +156,7 @@ func main\(\){
 
 fmt.Println\(os.Args\[1:\]\)
 
-
+这句语句的输出和我们从strings.Join得到的差不多，只不过多了一个中括号。所有的slice都可以这样打印。
 
 
 
