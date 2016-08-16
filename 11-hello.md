@@ -182,13 +182,7 @@ counts\[line\] = counts\[line\]+1
 
 接下来是bufio包，其功能是使得对输入和输出的变成操作更加有效和方便。这个包最有用的功能之一就是一个叫做Scanner的类型。Scanner可以读取输入，然后把其分割为行数据或是直接分成单词。这在处理天生就是行数据形式的输入时尤为有效。
 
-程序使用间接变量生命发来创建一个新的变量，用来指向一个bufio.Scanner实例。
+程序使用间接变量声明法来创建一个新的变量，用来指向一个bufio.Scanner实例。
 
 input:= bufio.NEwScanner\(os.Stdin\)
-
-
-
-
-
-
 
