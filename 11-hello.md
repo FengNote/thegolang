@@ -236,5 +236,7 @@ map实际上是对make创造出的数据结构的一个引用。当map作为参�
 
 ReadFile返回一个byte类型的slice，必须把它先转为string类型然后才能调用strings.Split.我们会在3.5.4节深入讨论string和byte slice。
 
+在底层实现上bufio.Scanner, ioutil.ReadFile和ioutil.WriteFile都是调用\*os.File的读写函数。不过对于大多数程序员来说都不用使用底层的这些读写函数。bufio和io\/ioutil级别的这些高级函数用起来更容易和方便一些。
 
+### 1.4. GIF动画
 
