@@ -18,7 +18,7 @@ $ go build helloworld.go
 
 然后一个名为helloworld的可执行的二进制文件就编译出来了，下次直接运行可执行文件即可，不用在进行重复的编译过程。
 
-$ .\/helloworld
+$ ./helloworld
 
 Hello, 世界
 
